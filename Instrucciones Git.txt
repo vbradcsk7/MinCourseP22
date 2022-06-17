@@ -1,4 +1,4 @@
-git init:  Esto inicializará la carpeta/repositorio que tienes en tu computador local.
-git add . :Esto hará que se guarden los archivos que tengo contenidos de la carpeta, se añadirán todos.
-git commit -m "inserta Mensaje aquí": Esto preparará los cambios añadidos/rastreados en mi carpeta para subir a Github. el mensaje se lo pone a la descripcion. 
+git init:  Esto inicializara la carpeta/repositorio que tienes en tu computador local.
+git add . :Esto hara que se guarden los archivos que tengo contenidos de la carpeta, se aniadiron todos.
+git commit -m "inserta Mensaje aqui": Esto preparara los cambios aniadidos/rastreados en mi carpeta para subir a Github. el mensaje se lo pone a la descripcion. 
 git push origin master/[branch inicial por default]: para empujar tus archivos a Github.
