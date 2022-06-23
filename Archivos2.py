@@ -19,10 +19,41 @@ datos.append(celul)
 mail=input("Usuario escriba su correo: ")
 datos.append(mail)
 
-finaldata = ''.join(str(datos) )
+finaldata = ''.join(str(datos)) #Join: Une todos los elementos de una tupla/arreglo en 
+#una cadena, utilizando un carácter hash ['' or # et al.] como separador:
 
 fichero.write(finaldata)#añadir info dentro del arhivo con el metodo write
 fichero.close()#siempre se abre y se cierra use close method para cerrar
 
 fichero=open('datos.txt')#define el metodo open para abrir el archivo indicando el nombre y la extension
 print(fichero.read())#en pantalla imprimir el contenido emplendo el metodo open
+
+
+'''
+# escritura en el archivo
+fichero = open('new.txt', 'a')
+nombre= input ("ingrese el nombre: ")
+apellido= input ("ingrese el Apellido: ")
+direccion= input ("ingrese la Direccion: ")
+telefono= input ("ingrese el telefono: ")
+
+fichero.write("nombre: ")
+fichero.write(nombre)
+fichero.write("\n")
+fichero.write("Apellido: ")
+fichero.write(apellido)
+fichero.write("\n")
+fichero.write("Direccion: ")
+fichero.write(direccion)
+fichero.write("\n")
+fichero.write("Telefono: ")
+fichero.write(telefono)
+fichero.write("\n")
+
+# cerrando el archivo
+fichero.close()
+
+# lectura de archivo
+fichero = open ("new.txt")
+print(fichero.read())
+'''
